@@ -1,0 +1,23 @@
+{
+  "name": "php/jwt",
+  "description": "jwt php vue",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Shestakov",
+      "email": "sasha.shestakov@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "vlucas/phpdotenv": "^2.5@dev",
+    "firebase/php-jwt": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": ""
+    }
+  }
+}
