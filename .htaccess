@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} ^/fonts/
+RewriteRule ^(.*)$ /mix-static/$1 [L] # /lka - заменить на нужную директорию
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+ErrorDocument 404 /404.php
